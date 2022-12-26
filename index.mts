@@ -1,2 +1,2 @@
-import "ipfs-http-client";
-console.log("file works");
+import { create } from "ipfs-http-client";
+console.log(create);
